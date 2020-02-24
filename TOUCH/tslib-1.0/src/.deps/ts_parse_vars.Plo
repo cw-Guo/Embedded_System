@@ -1,0 +1,89 @@
+ts_parse_vars.lo: ts_parse_vars.c \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdc-predef.h \
+ ../config.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/alloca.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/features.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/cdefs.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/wordsize.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/long-double.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ /opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stddef.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/string.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/libc-header-start.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/xlocale.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/string.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/string2.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdlib.h \
+ tslib-private.h tslib.h \
+ /opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stdarg.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/time.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/typesizes.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/time_t.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timeval.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/select.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/select.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sigset.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timespec.h \
+ tslib-filter.h tslib.h
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdc-predef.h:
+
+../config.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/alloca.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/features.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/long-double.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs-hard.h:
+
+/opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stddef.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/string.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/libc-header-start.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/xlocale.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/string.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/string2.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdlib.h:
+
+tslib-private.h:
+
+tslib.h:
+
+/opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stdarg.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/time.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/time_t.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timeval.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/select.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/select.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sigset.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timespec.h:
+
+tslib-filter.h:
+
+tslib.h:

@@ -1,0 +1,61 @@
+ts_error.lo: ts_error.c \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdc-predef.h \
+ ../config.h \
+ /opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stdarg.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdio.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/libc-header-start.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/features.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/cdefs.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/wordsize.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/long-double.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ /opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stddef.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/typesizes.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/libio.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/_G_config.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/wchar.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/stdio_lim.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sys_errlist.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/stdio.h
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdc-predef.h:
+
+../config.h:
+
+/opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stdarg.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdio.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/libc-header-start.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/features.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/long-double.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs-hard.h:
+
+/opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stddef.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/libio.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/_G_config.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/wchar.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/stdio_lim.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sys_errlist.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/stdio.h:

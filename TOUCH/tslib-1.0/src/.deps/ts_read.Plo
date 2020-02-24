@@ -1,0 +1,64 @@
+ts_read.lo: ts_read.c \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdc-predef.h \
+ ../config.h tslib-private.h tslib.h \
+ /opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stdarg.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/time.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/features.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/cdefs.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/wordsize.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/long-double.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/typesizes.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/time_t.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timeval.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/select.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/select.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sigset.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timespec.h \
+ tslib-filter.h tslib.h
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdc-predef.h:
+
+../config.h:
+
+tslib-private.h:
+
+tslib.h:
+
+/opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stdarg.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/time.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/features.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/long-double.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs-hard.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/time_t.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timeval.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/select.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/select.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sigset.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timespec.h:
+
+tslib-filter.h:
+
+tslib.h:

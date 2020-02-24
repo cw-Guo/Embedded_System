@@ -1,0 +1,36 @@
+头文件 include 各种库， 并且声明使用的函数
+
+main文件 实施具体的功能
+
+其余.c文件则实现头文件中的函数
+
+https://blog.csdn.net/u014353386/article/details/51033526
+
+1. 能不用全局变量尽量不用，我想除了系统状态和控制参数、通信处理和一些需要效率的模块，其他的基本可以靠合理的软件分层和编程技巧来解决。
+
+2. 如果不可避免需要用到，那能藏多深就藏多深。
+
+1)如果只有某.c文件用，就static到该文件中，顺便把结构体定义也收进来；
+
+2)如果只有一个函数用，那就static到函数里面去；
+
+3)如果非要开放出去让人读取，那就用函数return出去，这样就是只读属性了；
+
+4)如果非要遭人蹂躏赋值，好吧，我开放函数接口让你传参赋值；5)实在非要extern强奸我，我还可以严格控制包含我.h档的对象，而不是放到公共的includes.h中被人围观，丢人现眼。
+
+         如此，你可明白我对全局变量的感悟有多深刻。悲催的我，已经把当年那些“老人”交给我维护的那些案子加班全部重新翻写了。你能明白吗，不要让人背后唾弃你哦。
+
+arm-linux-gcc mypaint.c -c 
+
+arm-linux-gcc -shared -fPIC -o mypaint_lib.so mypaint.o
+
+arm-linux-gcc main.c -o main -L. mypaint_lib.so -lm
+
+ifconfig eth0 192.168.208.133 
+
+mount 192.168.208.12:/srv/nfs4 mnt -o nolock,proto=tcp  
+
+
+hid support
+specil hid driver
+multitouch panels

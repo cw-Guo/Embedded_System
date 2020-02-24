@@ -1,0 +1,48 @@
+
+
+
+setenv ipaddr 192.168.208.133
+setenv serverip 192.168.208.12
+tftp 0x82000000 zImage4.4
+tftp 0x88080000 ramdisk_img.gz
+tftp 0x88000000 am335x-boneblack.dtb
+
+set bootargs root=/dev/ram rw initrd=0x88080000 console=ttyO0,115200
+bootz 0x82000000 0x88080000:0x1996a1 0x88000000
+bootz 0x82000000 0x88080000:0x8769d8 0x88000000
+
+自己版本內核大小0x 8769d8
+
+ifconfig eth0 192.168.208.133
+mount 192.168.208.12:/srv/nfs4 mnt -o nolock,proto=tcp
+
+vinfo.xres             =1024                                                    
+vinfo.yres             =768                                                     
+vinfo.bits_per_pixel   =16                                                      
+vinfo.red.length       =5                                                       
+vinfo.red.offset       =11                                                      
+vinfo.green.length       =6                                                     
+vinfo.green.offset       =5                                                     
+vinfo.blue.length       =5                                                      
+vinfo.blue.offset       =0                                                      
+vinfo.blue.msb_right    =0  
+
+insmod myio.ko
+mknod /dev/myled c 245 0 -m 777 
+mkdir -p /lib/modules/4.4.155
+
+程序“libtool”尚未安装。 如需运行 'libtool'，请要求管理员安装 'libtool-bin' 软件包
+
+export TSLIB_TSDEVICE=/dev/input/event1
+export TSLIB_CONFFILE=/usr/etc/ts.conf
+export TSLIB_PLUGINDIR=/usr/lib/ts
+export TSLIB_CONSOLEDEVICE=none
+export TSLIB_FBDEVICE=/dev/fb0
+export TSLIB_CALIBFILE=/etc/pointercal
+
+
+./ts_test: error while loading shared libraries: libdl.so.2: cannot open sharedy
+/home/student/tslib-1.0.0/src/.libs/libts.so
+
+export PATH=/opt/armhf-linux-2018.08/bin:$PATH
+

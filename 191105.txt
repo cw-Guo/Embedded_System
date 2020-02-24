@@ -1,0 +1,32 @@
+https://blog.csdn.net/weixin_42015463/article/details/82055013
+
+/home/171180616/linux$ ls arch/arm/configs/
+配置文件所在地，找到適合板子的配置文件，在這個官方的配置文件上開始編譯
+/home/171180616/linux$ make bb.org_defconfig ARCH=arm
+將上述目錄下的改配置文件更新過去
+make ARCH=arm CROSS_COMPILE=arm-noe-linux-gnueabi- -j8 //多線程編譯
+
+sleep 5;import 13.jpg
+display 13.jpg
+
+編譯完成之後，編譯出來的文件目錄位於：linux/arch/arm/boot zimage
+目錄數文件位於： boot/dts
+am335x-boneblack.dtb //找出對應開發板的目錄樹文件
+
+配置内核时, RAM Disk 要求在 “Block devices→” 中选中 “RAM block device support”, 并
+设置适当的 RAM Disk 大小。
+在 “General setup” 设置分支里选中 “Initial RAM filesystem andRAM disk (initramfs/initrd) support”
+
+-block devices 选中 device driver  中的disk ram block device support 
+
+network 協議  //自动设置 内核配置
+
+busybox 編譯  设置安装文件夹
+
+设置静态库  busybox setting build busybox ad a static binary
+
+
+拷貝相應動態庫到lib文件夾  
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/lib
+
+

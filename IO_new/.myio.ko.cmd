@@ -1,0 +1,1 @@
+cmd_/home/171180616/IO_new/myio.ko := /opt/armhf-linux-2018.08/bin/arm-none-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/171180616/IO_new/myio.ko /home/171180616/IO_new/myio.o /home/171180616/IO_new/myio.mod.o

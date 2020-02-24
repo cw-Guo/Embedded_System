@@ -1,0 +1,143 @@
+ts_load_module.lo: ts_load_module.c \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdc-predef.h \
+ ../config.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/alloca.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/features.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/cdefs.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/wordsize.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/long-double.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ /opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stddef.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdlib.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/libc-header-start.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/waitflags.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/waitstatus.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/types.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/typesizes.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/clock_t.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/clockid_t.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/time_t.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/timer_t.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/endian.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/endian.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/byteswap.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/byteswap-16.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/uintn-identity.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/select.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/select.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sigset.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timeval.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timespec.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/sysmacros.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sysmacros.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/pthreadtypes.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/stdlib-bsearch.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/stdlib-float.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/string.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/xlocale.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/string.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/string2.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/dlfcn.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/dlfcn.h \
+ tslib-private.h tslib.h \
+ /opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stdarg.h \
+ /opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/time.h \
+ tslib-filter.h tslib.h
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdc-predef.h:
+
+../config.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/alloca.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/features.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/long-double.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/gnu/stubs-hard.h:
+
+/opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stddef.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/stdlib.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/libc-header-start.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/waitflags.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/waitstatus.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/types.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/clock_t.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/clockid_t.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/time_t.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/timer_t.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/endian.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/endian.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/byteswap.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/byteswap-16.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/uintn-identity.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/select.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/select.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sigset.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timeval.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/types/struct_timespec.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/sysmacros.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/sysmacros.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/pthreadtypes.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/stdlib-bsearch.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/stdlib-float.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/string.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/xlocale.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/string.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/string2.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/dlfcn.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/bits/dlfcn.h:
+
+tslib-private.h:
+
+tslib.h:
+
+/opt/armhf-linux-2018.08/lib/gcc/arm-none-linux-gnueabi/6.1.0/include/stdarg.h:
+
+/opt/armhf-linux-2018.08/arm-none-linux-gnueabi/usr/include/sys/time.h:
+
+tslib-filter.h:
+
+tslib.h:
